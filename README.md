@@ -1,4 +1,4 @@
-# Spring Microservices and Docker
+# Hello-MTL
 
 This example shows how to create a microservices architecture with Spring Boot and Spring Cloud. It also shows how to package each application in Docker containers and run them with Docker Compose.
 
