@@ -1,12 +1,10 @@
 # Hello-MTL
 
-This example shows how to create a microservices architecture with Spring Boot and Spring Cloud. It also shows how to package each application in Docker containers and run them with Docker Compose.
+This example shows how to create a microservices architecture with Spring Boot. It also shows how to package each application in Docker containers and deploy them with Github actions.
 
 Please read [Build Spring Microservices and Dockerize them for Production](https://developer.okta.com/blog/2019/02/28/spring-microservices-docker) for a tutorial that shows you how to build this application.
 
 **Prerequisites:** [Java 8 or 11](https://adoptopenjdk.net/).
-
-> [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 
 * [Getting Started](#getting-started)
 * [Help](#help)
@@ -18,7 +16,7 @@ Please read [Build Spring Microservices and Dockerize them for Production](https
 To install this example application, run the following commands:
 
 ```bash
-git clone https://github.com/oktadeveloper/okta-spring-microservices-docker-example.git
+git clone 
 cd okta-spring-microservices-docker-example
 ```
 
