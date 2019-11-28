@@ -58,8 +58,8 @@ jobs:
         ECR_REPOSITORY: hello-mtl
         IMAGE_TAG: ${{ github.sha }}
       run: |
-        docker-compose build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-        docker-compose push
+        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+        docker push
         echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
 
     - name: Fill in the new image ID in the Amazon ECS task definition
