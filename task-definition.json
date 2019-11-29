@@ -1,6 +1,6 @@
 {
     "ipcMode": null,
-    "executionRoleArn": "<create_new>",
+    "executionRoleArn": "arn:aws:iam::450495060583:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "name": "hello-mtl",
