@@ -28,7 +28,7 @@
             "dockerLabels": null,
             "dependsOn": null,
             "repositoryCredentials": {
-                "credentialsParameter": ""
+                "credentialsParameter": "arn:aws:secretsmanager:region:aws_account_id:secret:secret_name"
             }
         }
     ],
