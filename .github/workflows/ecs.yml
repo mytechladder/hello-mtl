@@ -63,6 +63,7 @@ jobs:
         ECR_REPOSITORY: hello-mtl
         IMAGE_TAG: ${{ github.sha }}
       run: |
+        $(aws ecr get-login --registry-ids login-ecr  --region us-west-2)
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
         echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
